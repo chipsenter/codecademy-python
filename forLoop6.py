@@ -20,3 +20,5 @@ def compute_bill(food):
   for item in food:
     total = total + prices[item]
   return total
+  
+  
