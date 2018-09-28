@@ -1,10 +1,5 @@
-def square(n):
-  """Returns the square of a number."""
-  squared = n ** 2
-  print "%d squared is %d." % (n, squared)
-  return squared
-  
-# Call the square function on line 10! Make sure to
-# include the number 10 between the parentheses.
+def add_it(x, y=10):
+    return x + y
 
-square(10)
+result = add_it(2)
+print(result)
